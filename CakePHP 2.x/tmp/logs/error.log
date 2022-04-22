@@ -1,0 +1,49 @@
+2022-03-22 14:03:27 Error: [MissingControllerException] Controller class HelloWorldsController could not be found.
+Exception Attributes: array (
+  'class' => 'HelloWorldsController',
+  'plugin' => NULL,
+)
+Request URL: /hello_worlds/imprimir
+Stack Trace:
+#0 C:\Users\lucas\Desktop\Git-repositories\cake-blog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-03-22 14:58:07 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /posts/delete/4
+Stack Trace:
+#0 [internal function]: PostsController->delete('4')
+#1 C:\Users\lucas\Desktop\Git-repositories\cake-blog\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\Users\lucas\Desktop\Git-repositories\cake-blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\lucas\Desktop\Git-repositories\cake-blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\lucas\Desktop\Git-repositories\cake-blog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-03-22 14:58:41 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /posts/delete/4
+Stack Trace:
+#0 [internal function]: PostsController->delete('4')
+#1 C:\Users\lucas\Desktop\Git-repositories\cake-blog\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\Users\lucas\Desktop\Git-repositories\cake-blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\lucas\Desktop\Git-repositories\cake-blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\lucas\Desktop\Git-repositories\cake-blog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2022-03-22 15:01:29 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 C:\Users\lucas\Desktop\Git-repositories\cake-blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\lucas\Desktop\Git-repositories\cake-blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\Users\lucas\Desktop\Git-repositories\cake-blog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2022-03-22 15:01:30 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 C:\Users\lucas\Desktop\Git-repositories\cake-blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\lucas\Desktop\Git-repositories\cake-blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\Users\lucas\Desktop\Git-repositories\cake-blog\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
